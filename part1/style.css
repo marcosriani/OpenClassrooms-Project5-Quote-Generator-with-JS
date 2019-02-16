@@ -1,0 +1,43 @@
+body {
+	background-color: hsl(0, 0%, 95%);
+}
+.container {
+	background-color: #fff;
+	width: 80%;
+	height: 95vh;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+}
+.container p {
+	margin-top: 100px;
+}
+.container button {
+	margin-top: 150px;
+	padding: 20px;
+	border-radius: 15%;
+	transition: 0.5s ease;
+	font-size: 25px;
+	border: 1px solid hsl(0, 0%, 28%);
+}
+.container button:hover {
+	background-color: hsl(0, 0%, 28%);
+	color: #fff;
+}
+#quote {
+	font-size: 1em;
+	background-color: hsl(0, 0%, 98%);
+	height: 70px;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+button:focus {
+	outline:0;
+}
+.author {
+	text-align: right;
+	position: relative;
+	right: 50px;
+	top: 20vh;
+}
